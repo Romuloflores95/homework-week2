@@ -1,0 +1,177 @@
+/* body value overall */
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url("../imgs/abstract-image.jpg");
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  
+  main {
+    margin: 80px 0;
+  }
+  
+  .block {
+    background-color: rgb(94, 88, 88);
+  
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .block-header {
+    color: #bd2828;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+  }
+  
+  
+  #logo {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(44, 39, 39);
+    background: #bd2828;
+    box-shadow: 40px 0px 90px #808080, -40px 0px 90px #808080;
+    border: 4px inset #bd2828;
+  }
+  
+  
+  /*  navbar */
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #bd2828;
+  }
+  
+  .navbar {
+    background: rgb(94, 88, 88);
+    border: none;
+  }
+  
+  
+  
+  /*  media querie */
+  
+  @media only screen and (max-width: 767px) {
+    .navbar-header {
+      background-color: #bd2828;
+    }
+  }
+  
+  
+  
+  
+  .connect-header {
+    font-size: 25px;
+  }
+  
+  .connect-photo {
+    width: 55px;
+    height: 55px;
+  }
+  
+  #rutgers {
+    font-style: italic ;
+    color:#bd2828;
+  }
+  
+  #rutgers:hover {
+    color:#cc1d1d;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+   
+  
+  
+    
+  /* work titles font */
+  #font1s {
+    font-style: italic ;
+    color:#bd2828;
+  }
+  
+  
+  #font1s:hover {
+    color: #cc1d1d;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+
+  
+  /*  images */
+  #images {
+    padding-top: 15px;
+    text-align: center;
+  }
+  
+  #photo-site {
+    width: 300px;
+  }
+  
+  /* header */
+  .about-me-header {
+    margin-bottom: 33px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #4aaaa5;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    background-color:  rgb(94, 88, 88);
+  }
+  
+  .text-muted-footer {
+    margin-top: 15px;
+    color: rgb(3, 3, 3);
+  }
+  
+  .two-toned-footer-color {
+    height: 6px;
+    padding-top: 3px;
+    background-color: #bd2828;
+  }
+  
+  
+  
+  /* image */
+  #about-image {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin: 0 20px 10px 0;
+  }
+  
+  .port-image {
+    margin: 20px auto;
+  }
+  
+  .form-control {
+    border-radius: 0;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  
+  /* button */
+  .submit-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(31, 28, 28);
+    background-color:#bd2828;
+    border: 9px inset #bd2828;
+  }
+  
+  .submit-btn:hover {
+    opacity: .7;
+  }
+  
+  
